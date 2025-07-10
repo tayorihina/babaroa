@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ババロアの冒険</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button onclick="document.getElementById('bgm').play()">♪ BGM再生</button>
+<button onclick="document.getElementById('bgm').pause()">♪ BGM停止</button>
+<audio id="bgm" loop>
+<source src="bgm.mp4" type="audio/mp3">
+
+</audio>
+
+<!-- タイトル -->
+<header class="hero">
+     <div class="moving-bg"></div>
+     <h1 class="hero-text">ババロアの冒険</h1>
+</header>
+
+<!-- 紹介文＋イラスト＋セリフ -->
+<section id="intro">
+<div class="intro-text">
+<h2>ババロアについて</h2>
+<p>
+       ババロアは、カウボーイハットをかぶった猫。<br>
+       色々なところを歩き回り、森を冒険するのが大好き！<br>
+       好奇心旺盛でちょっとおっちょこちょいだけど、<br>とってもチャーミング。
+</p>
+</div>
+<div class="intro-image">
+<img src="img.jpg" alt="ババロアのイラスト">
+<p class="balloon">「今日はなにを見つけようかな？」</p>
+</div>
+</section>
+<!-- あらすじ -->
+<section id="story">
+<h2>あらすじ</h2>
+<p>
+     ある日、ババロアは森の奥へと冒険に出かけました。<br>
+     木漏れ日の中、不思議な光や音をたどっていくと…？<br>
+     帽子をかぶった猫の、大きな冒険がはじまります。
+</p>
+</section>
+<!-- アニメーション（動画） -->
+<section id="animation">
+<h2>ババロア、森へ行く</h2>
+<video controls autoplay width="640">
+<source src="babaroa_animation.mp4" type="video/mp4">
+</video> 
+</section>  
+
+<!-- おまけ -->
+<section id="extra">
+<h4>おまけ</h4>
+<p><strong>チーム名：</strong>チーム麻雀</p>
+<p><strong>チームメンバー：</strong>寺田昊生・山下陽輝・若松翔太・田寄陽菜</p>
+</section>
+<!-- 使用AIツール -->
+<section id="tools">
+<h4>使用したAIツール</h4>
+<ul>
+<li>ChatGPT（構成・文章・イラスト）</li>
+<li>Canva （イラスト作成・動画編集・ナレーション）</li>
+<li>Filmora（音源作成）</li>
+</ul>
+</section>
+</body>
+</html>
